@@ -145,7 +145,7 @@
                                 <enable_customergroup>1</enable_customergroup>
                             </depends>
                         </dimension_customergroup>
-                        <!--enable_first_order>
+                        <enable_first_order>
                             <label>Enable Customer First Purchase Tracking ( Date )</label>
                             <frontend_type>select</frontend_type>
                             <source_model>adminhtml/system_config_source_yesno</source_model>
@@ -190,7 +190,7 @@
                             <depends>
                                 <enable_customer_orders>1</enable_customer_orders>
                             </depends>
-                        </metric_customer_orders-->
+                        </metric_customer_orders>
                     </fields>
                 </aromicon_gua_customer>
                 <aromicon_gua_product translate="label" module="aromicon_gua">
